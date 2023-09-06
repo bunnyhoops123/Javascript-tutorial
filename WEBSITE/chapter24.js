@@ -7,7 +7,7 @@
 //if global, var will change browser's window properties
 
 
-
+//Avoid var whenever possible
 //Replace let with var to understand
 for(let i= 1;i <=3; i+=1 ){
 }
