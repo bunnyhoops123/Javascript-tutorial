@@ -10,5 +10,9 @@ let lastName;
 firstName = fullName.slice(0,3);//inlcudes 0 but not third elemnet 
 lastName = fullName.slice(4);//from 4 uptill end of string 
 
+//or 
+
+lastName = fullName.slice(fullName.indexOf(' ') + 1);
+
 console.log(firstName);
 console.log(lastName);
