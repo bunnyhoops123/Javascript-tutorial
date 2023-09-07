@@ -10,6 +10,10 @@ class Student{
         Student.numberOfStudents += 1;
     }
 
+    static startExam(){
+        console.log("3....2....1....Go!");
+    }
+
     study(){
         console.log(`${this.name} is studying`);
     }
@@ -19,3 +23,4 @@ const student1 = new Student("sumukh");
 student1.study();
 
 console.log(Student.numberOfStudents);
+Student.startExam();
