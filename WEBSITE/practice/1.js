@@ -1,3 +1,6 @@
+//IMPORTANT PLEASE LOOK UP 1.Normal copy, 2.Shallow Copy, 3.Deep Copy.
+//Link --> https://javascript.info/object-copy#:~:text=One%20of%20the%20fundamental%20differences,when%20we%20copy%20a%20value
+
 let university = {
     name: "Default",
     location: "Default"
@@ -5,7 +8,7 @@ let university = {
 
 let sumukh_university = Object.assign({}, university);
 
-//this method converts all data to objects data-type, use Deep Copy for safe Copying 
+//this method converts all data to objects data-type, use Deep Copy for safe Copying (Extracting all layeers of data)
 
 sumukh_university = JSON.parse(JSON.stringify(university));
 
